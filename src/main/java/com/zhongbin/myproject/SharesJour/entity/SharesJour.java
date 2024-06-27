@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 @Data
-@TableName("share_jour")
+@TableName("demo.shares_jour")
 public class SharesJour {
 
     @ExcelProperty("定位串")
@@ -17,7 +17,7 @@ public class SharesJour {
     private String positionStr;
 
     @ExcelProperty("交易时间")
-    private Date currentDate;
+    private Date tradeDate;
 
     @ExcelProperty("销售商")
     private String agencyNo;
