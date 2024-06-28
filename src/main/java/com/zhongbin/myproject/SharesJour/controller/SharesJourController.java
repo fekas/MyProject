@@ -171,4 +171,28 @@ public class SharesJourController {
         long end = System.currentTimeMillis();
         log.info("导出{}条数据花费时间为{}", count, end - start);
     }
+
+    /**
+     *ResultHandler处理mybatis返回结果，不手动分批次导出
+     */
+    @GetMapping("/excel/download3")
+    public void download3(HttpServletResponse response) throws Exception {
+
+    }
+
+    /**
+     *异步导出
+     */
+    @GetMapping("/excel/download4")
+    public void download4(HttpServletResponse response) throws Exception {
+
+    }
+
+    /**
+     *导出消息推送
+     */
+    @GetMapping("/excel/download5")
+    public void download5(HttpServletResponse response) throws Exception {
+
+    }
 }
